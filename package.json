@@ -1,0 +1,28 @@
+{
+  "name": "agri-trace-smart-contract",
+  "version": "1.0.0",
+  "description": "Smart contract cho hệ thống truy xuất nguồn gốc nông sản",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "test:verbose": "hardhat test --verbose",
+    "deploy:local": "hardhat run scripts/deploy.js --network localhost",
+    "demo": "hardhat run scripts/demo.js",
+    "node": "hardhat node",
+    "clean": "hardhat clean"
+  },
+  "keywords": [
+    "blockchain",
+    "traceability",
+    "agriculture",
+    "smart-contract",
+    "hardhat"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "dotenv": "^17.2.3",
+    "hardhat": "^2.22.0"
+  }
+}
